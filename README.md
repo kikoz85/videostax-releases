@@ -4,7 +4,7 @@
     alt=""
     height="32"
     width="45"
-    style="vertical-align: middle; margin-right: 10px; position: relative; top: -0.06em;"
+    style="vertical-align: middle; margin-right: 10px; position: relative; top: 10px;"
   />VideoSTAX — Releases & Downloads
 </h1>
 
