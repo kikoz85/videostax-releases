@@ -33,7 +33,7 @@ Get the latest stable build for your operating system:
 
 > 📌 **Looking for all releases?** View the full version history on the [GitHub Releases page](https://github.com/kikoz85/videostax-releases/releases).
 
-**Latest v0.7.4 assets:** macOS `.dmg` (Apple Silicon) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.4). Linux AppImage and Windows zip for v0.7.4 will be added on the same page when built on those hosts; until then, [v0.7.3](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.3) includes all three platforms.
+**Latest v0.7.5 assets:** macOS `.dmg` (Apple Silicon) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.5). Linux AppImage and Windows zip for v0.7.5 will be added on the same page when built on those hosts; until then, [v0.7.4](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.4) or [v0.7.3](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.3) include prior platform builds.
 
 ---
 
