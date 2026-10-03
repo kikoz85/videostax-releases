@@ -1,9 +1,15 @@
-<div align="left" style="display: flex; align-items: center; gap: 18px; margin: 0 0 16px 0;">
-  <img src="assets/logo.svg" alt="VideoSTAX logo" height="32" width="45" style="display: block; flex-shrink: 0;" />
-  <h1 style="border: none; margin: 0; padding: 0; font-size: 2em; font-weight: 600; line-height: 1.25;">
-    VideoSTAX — Releases &amp; Downloads
-  </h1>
-</div>
+<h1 style="border: none; margin: 0 0 16px 0; padding: 0;">
+  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="border: none; border-collapse: collapse; border-spacing: 0;">
+    <tr>
+      <td style="border: none; vertical-align: middle; padding: 0 18px 0 0; line-height: 0;">
+        <img src="assets/logo.svg" alt="" height="32" width="45" style="display: block; border: none;" />
+      </td>
+      <td style="border: none; vertical-align: middle; padding: 0;">
+        VideoSTAX — Releases &amp; Downloads
+      </td>
+    </tr>
+  </table>
+</h1>
 
 [![Latest Release](https://img.shields.io/github/v/release/kikoz85/videostax-releases?style=flat-square&color=2b6cb0)](https://github.com/kikoz85/videostax-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/kikoz85/videostax-releases/total?style=flat-square&color=38a169)](https://github.com/kikoz85/videostax-releases/releases)
