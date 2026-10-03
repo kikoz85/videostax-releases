@@ -37,6 +37,51 @@ Get the latest stable build for your operating system:
 
 ---
 
+## 📋 System requirements
+
+Requirements below describe what each **client build** expects on your machine. Optional items unlock hardware encoders or VapourSynth filters bundled with that release.
+
+### macOS
+
+| | Minimum | Recommended |
+| :--- | :--- | :--- |
+| **OS** | macOS 12 Monterey (Apple Silicon) | macOS 13 Ventura or later |
+| **CPU** | Apple **M1** (arm64) | M2 / M3 / M4 series |
+| **RAM** | 8 GB | 16 GB or more for VapourSynth + parallel jobs |
+| **Disk** | ~500 MB for the app bundle | Fast SSD; free space ≥ 3× output size for temp mux/encode |
+| **Display** | 1280×800 | 1920×1080 or higher |
+| **GPU / encode** | VideoToolbox (built into Apple Silicon) | Same; no discrete GPU required |
+
+**Notes:** Current public DMG builds are **arm64 only** (not Intel Mac). The `.app` ships **ffmpeg**, **ffprobe**, **mkvmerge**, **vspipe**, and a bundled **VapourSynth** Python tree—no separate Homebrew install required for a standard release.
+
+### Linux
+
+| | Minimum | Recommended |
+| :--- | :--- | :--- |
+| **OS** | Recent **glibc** 64-bit distro (e.g. Ubuntu 22.04, Fedora 38+) | Ubuntu 24.04 LTS or equivalent |
+| **CPU** | x86_64, 4 cores | 8+ cores for parallel queue |
+| **RAM** | 8 GB | 16 GB+ with VapourSynth scripts |
+| **Disk** | ~400 MB for portable bundle / AppImage | SSD; ample temp space for phased mux |
+| **Display** | X11 or Wayland, 1280×800 | 1920×1080 |
+| **GPU (optional)** | Intel/AMD/NVIDIA with working **VAAPI** (`/dev/dri/renderD*`) | Same + recent drivers for **QSVEncC** / **NVEncC** / **VCEEncC** when shipped in the build |
+
+**Notes:** Release bundles expect **`LD_LIBRARY_PATH`** layout documented in release notes (engine + `bin/lib`). Flatpak/AppImage builds are self-contained when provided. Root is **not** required.
+
+### Windows
+
+| | Minimum | Recommended |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 **64-bit** (21H2+) | Windows 11 64-bit |
+| **CPU** | x64, 4 cores | 8+ cores |
+| **RAM** | 8 GB | 16 GB+ |
+| **Disk** | ~600 MB installed | SSD; temp space for intermediate video/audio files |
+| **Display** | 1280×800 | 1920×1080 |
+| **GPU (optional)** | Intel **QSV**, NVIDIA **NVENC**, or AMD **VCE/AMF** (driver-dependent) | Dedicated GPU with latest vendor drivers for **QSVEncC**, **NVEncC**, **VCEEncC** |
+
+**Notes:** Keep the **`bin`** folder next to the UI executable (same layout as the release `.zip`). **Microsoft Visual C++** redistributables used by Flutter are included or installed by the setup when an installer is provided. Enable **Developer Mode** only for building from source, not for end-user installs.
+
+---
+
 ## 🛠️ Installation & First Launch Notes
 
 ### macOS
