@@ -114,6 +114,16 @@ When an installer or `.zip` is provided:
 
 ---
 
+## 💖 Support the Project
+
+VideoSTAX is independently developed and maintained. If you find the app helpful for your video encoding workflows and want to support ongoing development, optimizations, and new features, consider becoming a sponsor:
+
+👉 **[Sponsor VideoSTAX on GitHub](https://github.com/sponsors/kikoz85)**
+
+Your support helps keep the project active and continuously evolving!
+
+---
+
 ## 📄 Legal & third-party software
 
 Bundled and invoked components (FFmpeg, MKVToolNix, VapourSynth, Flutter, Go, optional Rigaya encoders, etc.) are subject to their upstream licenses.
