@@ -1,8 +1,7 @@
-<img align="left" height="40" src="assets/logo.svg" alt="VideoSTAX logo" />
-
-# VideoSTAX — Releases & Downloads
-
-<br clear="left" />
+<h1 style="display: flex; align-items: center; gap: 12px; border: none;">
+  <img src="assets/logo.svg" alt="VideoSTAX logo" height="36" width="36" style="display: block; flex-shrink: 0;" />
+  <span>VideoSTAX — Releases & Downloads</span>
+</h1>
 
 [![Latest Release](https://img.shields.io/github/v/release/kikoz85/videostax-releases?style=flat-square&color=2b6cb0)](https://github.com/kikoz85/videostax-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/kikoz85/videostax-releases/total?style=flat-square&color=38a169)](https://github.com/kikoz85/videostax-releases/releases)

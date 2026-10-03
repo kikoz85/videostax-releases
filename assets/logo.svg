@@ -4,8 +4,11 @@
       <stop offset="0%" stop-color="#F9D423" />
       <stop offset="100%" stop-color="#FF4E50" />
     </linearGradient>
+    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FCFCFC" />
+    </linearGradient>
   </defs>
   <path d="M140 180 L230 256 L140 332" fill="none" stroke="url(#fireGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
-  <!-- #383838 for GitHub README (light background); in-app titlebar uses #FFFFFF on dark chrome -->
-  <path d="M260 180 L350 256 L260 332" fill="none" stroke="#383838" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M260 180 L350 256 L260 332" fill="none" stroke="url(#lightGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
