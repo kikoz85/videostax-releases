@@ -1,4 +1,8 @@
-# 🎬 VideoSTAX — Releases & Downloads
+<img align="left" width="72" src="assets/videostax-logo.png" alt="VideoSTAX logo" />
+
+# VideoSTAX — Releases & Downloads
+
+<br clear="left" />
 
 [![Latest Release](https://img.shields.io/github/v/release/kikoz85/videostax-releases?style=flat-square&color=2b6cb0)](https://github.com/kikoz85/videostax-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/kikoz85/videostax-releases/total?style=flat-square&color=38a169)](https://github.com/kikoz85/videostax-releases/releases)
