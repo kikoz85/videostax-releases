@@ -1,4 +1,4 @@
-<img align="left" width="72" src="assets/videostax-logo.png" alt="VideoSTAX logo" />
+<img align="left" height="40" src="assets/logo.svg" alt="VideoSTAX logo" />
 
 # VideoSTAX — Releases & Downloads
 
