@@ -33,7 +33,7 @@ Get the latest stable build for your operating system:
 
 > 📌 **Looking for all releases?** View the full version history on the [GitHub Releases page](https://github.com/kikoz85/videostax-releases/releases).
 
-**Latest v0.7.5 assets:** macOS `.dmg` (Apple Silicon) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.5). Linux AppImage and Windows zip for v0.7.5 will be added on the same page when built on those hosts; until then, [v0.7.4](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.4) or [v0.7.3](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.3) include prior platform builds.
+**Latest v0.8.1 assets:** macOS `.dmg` (Apple Silicon, Native VT audio + LGPL) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.8.1). Linux AppImage and Windows zip for **v0.8.1** will be added on the same tag when built on those hosts; until then, [v0.8.0](https://github.com/kikoz85/videostax-releases/releases/tag/v0.8.0) or [v0.7.5](https://github.com/kikoz85/videostax-releases/releases/tag/v0.7.5) include prior platform builds.
 
 ---
 
@@ -52,7 +52,7 @@ Requirements below describe what each **client build** expects on your machine. 
 | **Display** | 1280×800 | 1920×1080 or higher |
 | **GPU / encode** | VideoToolbox (built into Apple Silicon) | Same; no discrete GPU required |
 
-**Notes:** Current public DMG builds are **arm64 only** (not Intel Mac). The `.app` ships **ffmpeg**, **ffprobe**, **mkvmerge**, **vspipe**, and a bundled **VapourSynth** Python tree—no separate Homebrew install required for a standard release.
+**Notes:** Current public DMG builds are **arm64 only** (not Intel Mac). The `.app` ships **ffmpeg**, **ffprobe**, **mkvmerge**, **vspipe**, a bundled **VapourSynth** Python tree, and (v0.8+) optional **FFmpeg LGPL** libraries for the experimental **Native VideoToolbox** path (off by default in Settings → Performance)—no separate Homebrew install required for a standard release.
 
 ### Linux
 
