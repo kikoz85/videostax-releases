@@ -33,7 +33,7 @@ Get the latest stable build for your operating system:
 
 > 📌 **Looking for all releases?** View the full version history on the [GitHub Releases page](https://github.com/kikoz85/videostax-releases/releases).
 
-**Latest v0.9.0 assets:** macOS  (Apple Silicon), Windows  (x64) and Linux  (x86_64) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.0). 0.9.0 fixes NVEncC on Windows/Linux (valid options, audio and subtitles kept, VapourSynth support), Windows pause/cancel and bundled VapourSynth, and the macOS Apple AAC 5.1/7.1 channel order.
+**Latest v0.9.0 assets:** macOS `.dmg` (Apple Silicon), Windows `.zip` (x64) and Linux `.AppImage` (x86_64) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.0). 0.9.0 fixes NVEncC on Windows/Linux (valid options, audio and subtitles kept, VapourSynth support), Windows pause/cancel and bundled VapourSynth, and the macOS Apple AAC 5.1/7.1 channel order.
 
 ---
 
