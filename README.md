@@ -28,12 +28,12 @@ Get the latest stable build for your operating system:
 | Platform | Recommended Package | Direct Link |
 | :--- | :--- | :--- |
 | **macOS** *(Apple Silicon)* | `.dmg` installer | [📥 Download macOS build](https://github.com/kikoz85/videostax-releases/releases/latest) |
-| **Linux** *(x86_64)* | `.AppImage` (portable) | [📥 Download Linux build](https://github.com/kikoz85/videostax-releases/releases/latest) |
+| **Linux** *(x86_64)* | `.AppImage` (portable), `.deb`, `.rpm` | [📥 Download Linux build](https://github.com/kikoz85/videostax-releases/releases/latest) |
 | **Windows** *(64-bit)* | `.exe` / `.zip` archive | [📥 Download Windows build](https://github.com/kikoz85/videostax-releases/releases/latest) |
 
 > 📌 **Looking for all releases?** View the full version history on the [GitHub Releases page](https://github.com/kikoz85/videostax-releases/releases).
 
-**Latest v0.9.0 assets:** macOS `.dmg` (Apple Silicon), Windows `.zip` (x64) and Linux `.AppImage` (x86_64) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.0). 0.9.0 fixes NVEncC on Windows/Linux (valid options, audio and subtitles kept, VapourSynth support), Windows pause/cancel and bundled VapourSynth, and the macOS Apple AAC 5.1/7.1 channel order.
+**Latest v0.9.1 assets:** macOS `.dmg` (Apple Silicon), Windows `.zip` (x64, now 312 MB), Linux `.AppImage`, `.deb` (Debian/Ubuntu) and `.rpm` (Fedora/openSUSE/RHEL) — [release page](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.1). Install on Debian/Ubuntu: `sudo apt install ./VideoSTAX-v0.9.1-amd64.deb`; on Fedora: `sudo dnf install ./VideoSTAX-v0.9.1-x86_64.rpm`.
 
 ---
 
