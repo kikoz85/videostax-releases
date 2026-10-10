@@ -29,7 +29,7 @@ VideoSTAX compresses and converts video files. You open a file, choose how the r
 
 It uses well-known tools under the hood (FFmpeg, MKVToolNix, VapourSynth) and the hardware encoders of your graphics card when available: **Apple VideoToolbox**, **NVIDIA NVENC**, **Intel Quick Sync** and **AMD VCE**. All tools are included in the download, so there is nothing else to install.
 
-**Contents:** [Download](#-download) · [What's new](#-whats-new-in-094) · [Screenshots](#-screenshots) · [Features](#-features) · [Quick start](#-quick-start) · [Encoders](#-encoders) · [Requirements](#-system-requirements) · [Installation](#-installation) · [FAQ](#-faq-and-troubleshooting) · [Support](#-support-the-project)
+**Contents:** [Download](#-download) · [What's new](#-whats-new-in-095) · [Screenshots](#-screenshots) · [Features](#-features) · [Quick start](#-quick-start) · [Encoders](#-encoders) · [Requirements](#-system-requirements) · [Installation](#-installation) · [FAQ](#-faq-and-troubleshooting) · [Support](#-support-the-project)
 
 ### 📥 Download
 
@@ -37,19 +37,29 @@ Get the files from the **[latest release](https://github.com/kikoz85/videostax-r
 
 | Platform | File | How to install |
 | :--- | :--- | :--- |
-| **macOS** (Apple Silicon) | `VideoSTAX-v0.9.4-macOS.dmg` | Open the DMG and drag VideoSTAX to Applications |
-| **Windows 10/11** (64-bit) | `VideoSTAX-v0.9.4-Windows-x64.zip` | Extract the folder and run `videostax_ui.exe` |
-| **Linux** (any distribution, x86_64) | `VideoSTAX-v0.9.4-x86_64.AppImage` | `chmod +x` the file and run it |
-| **Debian / Ubuntu / Mint** | `VideoSTAX-v0.9.4-amd64.deb` | `sudo apt install ./VideoSTAX-v0.9.4-amd64.deb` |
-| **Fedora / openSUSE / RHEL** | `VideoSTAX-v0.9.4-x86_64.rpm` | `sudo dnf install ./VideoSTAX-v0.9.4-x86_64.rpm` (openSUSE: `sudo zypper install …`) |
+| **macOS** (Apple Silicon) | `VideoSTAX-v0.9.5-macOS.dmg` | Open the DMG and drag VideoSTAX to Applications |
+| **Windows 10/11** (64-bit) | `VideoSTAX-v0.9.5-Windows-x64.zip` | Extract the folder and run `videostax_ui.exe` |
+| **Linux** (any distribution, x86_64) | `VideoSTAX-v0.9.5-x86_64.AppImage` | `chmod +x` the file and run it |
+| **Debian / Ubuntu / Mint** | `VideoSTAX-v0.9.5-amd64.deb` | `sudo apt install ./VideoSTAX-v0.9.5-amd64.deb` |
+| **Fedora / openSUSE / RHEL** | `VideoSTAX-v0.9.5-x86_64.rpm` | `sudo dnf install ./VideoSTAX-v0.9.5-x86_64.rpm` (openSUSE: `sudo zypper install …`) |
 
 Details for each system are in [Installation](#-installation).
 
-### ✨ What's new in 0.9.4
+### ✨ What's new in 0.9.5
+
+- The **Support development** button (GitHub Sponsors) is back in the About window, also reachable with the new ⓘ toolbar button on macOS, and in **Settings → Updates**.
+- If you have 0.9.4, VideoSTAX offers this update by itself; or use **Settings → Updates → Check now**.
+
+Full notes: [release 0.9.5](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.5).
+
+<details>
+<summary>What's new in 0.9.4</summary>
 
 - **Updates from the app**: VideoSTAX tells you when a new version is out (checked at startup, at most once a day, never during an encode) and downloads the right file for your system with one click. On Linux the AppImage updates itself; on macOS and Windows the downloaded DMG/ZIP opens so you can replace the app. You can turn it off or check by hand in **Settings → Updates**.
 
 Full notes: [release 0.9.4](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.4).
+
+</details>
 
 <details>
 <summary>What's new in 0.9.3</summary>
@@ -188,12 +198,12 @@ Keep free disk space of at least two to three times the size of the output file:
 ### 📦 Installation
 
 #### macOS
-1. Open `VideoSTAX-v0.9.4-macOS.dmg` and drag **VideoSTAX** into **Applications**.
+1. Open `VideoSTAX-v0.9.5-macOS.dmg` and drag **VideoSTAX** into **Applications**.
 2. The first time, macOS may say the app is from an unidentified developer. Open **System Settings → Privacy & Security** and click **Open Anyway** next to VideoSTAX.
 3. Settings are stored in `~/Library/Application Support/VideoSTAX`. To uninstall, drag the app to the Trash.
 
 #### Windows
-1. Extract `VideoSTAX-v0.9.4-Windows-x64.zip` to a folder of your choice (for example `C:\Programs\VideoSTAX`).
+1. Extract `VideoSTAX-v0.9.5-Windows-x64.zip` to a folder of your choice (for example `C:\Programs\VideoSTAX`).
 2. Run `videostax_ui.exe`. Keep the whole folder together: the `bin` folder contains the encoding tools.
 3. If SmartScreen shows a warning, click **More info → Run anyway**.
 4. Settings are stored in `%APPDATA%\VideoSTAX`. To uninstall, delete the folder.
@@ -201,12 +211,12 @@ Keep free disk space of at least two to three times the size of the output file:
 #### Linux
 - **AppImage** (any distribution):
   ```bash
-  chmod +x VideoSTAX-v0.9.4-x86_64.AppImage
-  ./VideoSTAX-v0.9.4-x86_64.AppImage
+  chmod +x VideoSTAX-v0.9.5-x86_64.AppImage
+  ./VideoSTAX-v0.9.5-x86_64.AppImage
   ```
   If it does not start, install FUSE 2 (`libfuse2` on Ubuntu/Debian) or run it with `--appimage-extract-and-run`.
-- **.deb** (Debian, Ubuntu, Mint): `sudo apt install ./VideoSTAX-v0.9.4-amd64.deb`
-- **.rpm** (Fedora, RHEL): `sudo dnf install ./VideoSTAX-v0.9.4-x86_64.rpm` · openSUSE: `sudo zypper install ./VideoSTAX-v0.9.4-x86_64.rpm`
+- **.deb** (Debian, Ubuntu, Mint): `sudo apt install ./VideoSTAX-v0.9.5-amd64.deb`
+- **.rpm** (Fedora, RHEL): `sudo dnf install ./VideoSTAX-v0.9.5-x86_64.rpm` · openSUSE: `sudo zypper install ./VideoSTAX-v0.9.5-x86_64.rpm`
 - With .deb and .rpm, VideoSTAX appears in the application menu and can be started with `videostax`. It is removed with `sudo apt remove videostax` or `sudo dnf remove videostax`.
 - Settings are stored in `~/.config/VideoSTAX`.
 - For hardware encoding, the GPU driver must be installed (NVIDIA proprietary driver, or Intel/AMD with VAAPI support).
@@ -250,7 +260,7 @@ VideoSTAX comprime e converte file video. Apri un file, scegli come deve essere 
 
 Usa strumenti affermati (FFmpeg, MKVToolNix, VapourSynth) e, quando disponibili, gli encoder hardware della scheda video: **Apple VideoToolbox**, **NVIDIA NVENC**, **Intel Quick Sync** e **AMD VCE**. Gli strumenti sono già inclusi nel download: non serve installare altro.
 
-**Indice:** [Download](#-download-1) · [Novità](#-novità-della-094) · [Schermate](#-schermate) · [Funzionalità](#-funzionalità) · [Guida rapida](#-guida-rapida) · [Encoder](#-encoder) · [Requisiti](#-requisiti-di-sistema) · [Installazione](#-installazione) · [Domande frequenti](#-domande-frequenti) · [Supporto](#-sostieni-il-progetto)
+**Indice:** [Download](#-download-1) · [Novità](#-novità-della-095) · [Schermate](#-schermate) · [Funzionalità](#-funzionalità) · [Guida rapida](#-guida-rapida) · [Encoder](#-encoder) · [Requisiti](#-requisiti-di-sistema) · [Installazione](#-installazione) · [Domande frequenti](#-domande-frequenti) · [Supporto](#-sostieni-il-progetto)
 
 ### 📥 Download
 
@@ -258,19 +268,29 @@ Scarica i file dall'**[ultima release](https://github.com/kikoz85/videostax-rele
 
 | Piattaforma | File | Come installare |
 | :--- | :--- | :--- |
-| **macOS** (Apple Silicon) | `VideoSTAX-v0.9.4-macOS.dmg` | Apri il DMG e trascina VideoSTAX in Applicazioni |
-| **Windows 10/11** (64 bit) | `VideoSTAX-v0.9.4-Windows-x64.zip` | Estrai la cartella e avvia `videostax_ui.exe` |
-| **Linux** (qualsiasi distribuzione, x86_64) | `VideoSTAX-v0.9.4-x86_64.AppImage` | Rendi eseguibile il file con `chmod +x` e avvialo |
-| **Debian / Ubuntu / Mint** | `VideoSTAX-v0.9.4-amd64.deb` | `sudo apt install ./VideoSTAX-v0.9.4-amd64.deb` |
-| **Fedora / openSUSE / RHEL** | `VideoSTAX-v0.9.4-x86_64.rpm` | `sudo dnf install ./VideoSTAX-v0.9.4-x86_64.rpm` (openSUSE: `sudo zypper install …`) |
+| **macOS** (Apple Silicon) | `VideoSTAX-v0.9.5-macOS.dmg` | Apri il DMG e trascina VideoSTAX in Applicazioni |
+| **Windows 10/11** (64 bit) | `VideoSTAX-v0.9.5-Windows-x64.zip` | Estrai la cartella e avvia `videostax_ui.exe` |
+| **Linux** (qualsiasi distribuzione, x86_64) | `VideoSTAX-v0.9.5-x86_64.AppImage` | Rendi eseguibile il file con `chmod +x` e avvialo |
+| **Debian / Ubuntu / Mint** | `VideoSTAX-v0.9.5-amd64.deb` | `sudo apt install ./VideoSTAX-v0.9.5-amd64.deb` |
+| **Fedora / openSUSE / RHEL** | `VideoSTAX-v0.9.5-x86_64.rpm` | `sudo dnf install ./VideoSTAX-v0.9.5-x86_64.rpm` (openSUSE: `sudo zypper install …`) |
 
 I dettagli per ogni sistema sono in [Installazione](#-installazione).
 
-### ✨ Novità della 0.9.4
+### ✨ Novità della 0.9.5
+
+- Il pulsante **Sostieni lo sviluppo** (GitHub Sponsors) è di nuovo nella finestra Info, raggiungibile anche dal nuovo pulsante ⓘ nella barra su macOS, e in **Impostazioni → Aggiornamenti**.
+- Se hai la 0.9.4, VideoSTAX ti propone da solo questo aggiornamento; oppure usa **Impostazioni → Aggiornamenti → Controlla ora**.
+
+Note complete: [release 0.9.5](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.5).
+
+<details>
+<summary>Novità della 0.9.4</summary>
 
 - **Aggiornamenti dall'app**: VideoSTAX ti avvisa quando esce una nuova versione (controllo all'avvio, al massimo una volta al giorno, mai durante una codifica) e scarica con un clic il file giusto per il tuo sistema. Su Linux l'AppImage si aggiorna da sola; su macOS e Windows si apre il DMG/ZIP scaricato per sostituire l'app. Puoi disattivarlo o controllare a mano da **Impostazioni → Aggiornamenti**.
 
 Note complete: [release 0.9.4](https://github.com/kikoz85/videostax-releases/releases/tag/v0.9.4).
+
+</details>
 
 <details>
 <summary>Novità della 0.9.3</summary>
@@ -409,12 +429,12 @@ Tieni libero sul disco almeno due o tre volte la dimensione del file finale: alc
 ### 📦 Installazione
 
 #### macOS
-1. Apri `VideoSTAX-v0.9.4-macOS.dmg` e trascina **VideoSTAX** in **Applicazioni**.
+1. Apri `VideoSTAX-v0.9.5-macOS.dmg` e trascina **VideoSTAX** in **Applicazioni**.
 2. Al primo avvio macOS potrebbe dire che l'app proviene da uno sviluppatore non identificato. Apri **Impostazioni di Sistema → Privacy e sicurezza** e clicca **Apri comunque** accanto a VideoSTAX.
 3. Le impostazioni sono salvate in `~/Library/Application Support/VideoSTAX`. Per disinstallare, trascina l'app nel Cestino.
 
 #### Windows
-1. Estrai `VideoSTAX-v0.9.4-Windows-x64.zip` in una cartella a tua scelta (per esempio `C:\Programmi\VideoSTAX`).
+1. Estrai `VideoSTAX-v0.9.5-Windows-x64.zip` in una cartella a tua scelta (per esempio `C:\Programmi\VideoSTAX`).
 2. Avvia `videostax_ui.exe`. Tieni la cartella completa: la sottocartella `bin` contiene gli strumenti di codifica.
 3. Se SmartScreen mostra un avviso, clicca **Ulteriori informazioni → Esegui comunque**.
 4. Le impostazioni sono salvate in `%APPDATA%\VideoSTAX`. Per disinstallare, elimina la cartella.
@@ -422,12 +442,12 @@ Tieni libero sul disco almeno due o tre volte la dimensione del file finale: alc
 #### Linux
 - **AppImage** (qualsiasi distribuzione):
   ```bash
-  chmod +x VideoSTAX-v0.9.4-x86_64.AppImage
-  ./VideoSTAX-v0.9.4-x86_64.AppImage
+  chmod +x VideoSTAX-v0.9.5-x86_64.AppImage
+  ./VideoSTAX-v0.9.5-x86_64.AppImage
   ```
   Se non parte, installa FUSE 2 (`libfuse2` su Ubuntu/Debian) oppure avvialo con `--appimage-extract-and-run`.
-- **.deb** (Debian, Ubuntu, Mint): `sudo apt install ./VideoSTAX-v0.9.4-amd64.deb`
-- **.rpm** (Fedora, RHEL): `sudo dnf install ./VideoSTAX-v0.9.4-x86_64.rpm` · openSUSE: `sudo zypper install ./VideoSTAX-v0.9.4-x86_64.rpm`
+- **.deb** (Debian, Ubuntu, Mint): `sudo apt install ./VideoSTAX-v0.9.5-amd64.deb`
+- **.rpm** (Fedora, RHEL): `sudo dnf install ./VideoSTAX-v0.9.5-x86_64.rpm` · openSUSE: `sudo zypper install ./VideoSTAX-v0.9.5-x86_64.rpm`
 - Con .deb e .rpm VideoSTAX compare nel menu delle applicazioni e si avvia anche con `videostax`. Si rimuove con `sudo apt remove videostax` o `sudo dnf remove videostax`.
 - Le impostazioni sono salvate in `~/.config/VideoSTAX`.
 - Per la codifica hardware serve il driver della scheda video (driver proprietario NVIDIA, oppure Intel/AMD con supporto VAAPI).
